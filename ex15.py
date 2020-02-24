@@ -12,6 +12,7 @@ txt = open(filename)
 #line 8 reads the file 
 print(f"Here's you file {filename}:")
 print(txt.read())
+# print(txt.close())
 
 # #line 17 is part of the input function on line 18
 print("Type the filename again:")
