@@ -23,18 +23,18 @@ cheese_and_crackers(10 + 20, 5 + 6)
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
-# import random
-# def add_num(num1, num2):
-#     print(num1 + num2)
+import random
+def add_num(num1, num2):
+    return(num1 + num2)
 
-# add_num(4, 5)
+add_num(4, 5)
 
-# x = 4
-# y = 5
-# add_num(x, y)
+x = 4
+y = 5
+print(add_num(x, y))
 
-# add_num(2 + 2, 1 + 4)
+add_num(2 + 2, 1 + 4)
 
-# add_num(2.4, 3.3)
+add_num(2.4, 3.3)
 
-# print(round((2.4 + 3.3), 1))
+print(round((2.4 + 3.3), 1))
