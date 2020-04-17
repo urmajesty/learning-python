@@ -38,10 +38,14 @@
 # 19. FALSE
  3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
 # 20. TRUE
+
+
 I will also give you a trick to help you figure out the more complicated ones toward the end.
 Whenever you see these Boolean logic statements, you can solve them easily by this simple process:
 1. Find an equality test (== or !=) and replace it with its truth.
+#one == one and 1 == 1
 2. Find each and/or inside parentheses and solve those first.
+
 3. Find each not and invert it.
 4. Find any remaining and/or and solve it.
 5. When you are done you should have True or False.
@@ -49,6 +53,7 @@ I will demonstrate with a variation on #20:
 3 != 4 and not (” t e s ting ” != ” t e s t ” or ”Python” == ”Python ” )
 Here’s me going through each of the steps and showing you the translation until I’ve boiled it down to
 a single result:
+
 1. Solve each equality test:
 3 != 4 is True: True and not ("testing" != "test" or "Python" == "Python")
 "testing" != "test" is True: True and not (True or "Python" == "Python")
